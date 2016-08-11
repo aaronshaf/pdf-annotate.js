@@ -14,7 +14,7 @@ module.exports = {
   plugins: plugins,
   entry: './index.js',
   output: {
-    filename: 'dist/' + fileName + '.js',
+    filename: 'dist/umd/' + fileName + '.js',
     library: 'PDFAnnotate',
     libraryTarget: 'umd'
   },
